@@ -137,3 +137,69 @@ $ git push origin master
 
 
 
+# 수업시작
+
+1. git은 폴더단위로 관리한다. 
+
+2.  git은 프로젝트를 관리하면서 배우는 소프트 웨어이다. 지울때 고민없이 지워도 된다. 
+
+   ```bash
+   $ git init (폴더단위로 git을 시작하겠다.라는 명령어)
+   Initialized empty Git repository in C:/users/Til/.git/
+   
+   $ ls -a (숨김파일 조회)
+   ./ ../ .git/
+   $ cd .git/ (여기는 설정파일이 있는 곳인데 들어갈꺼야? 건드리지마! 라는 경고가 뜬다.)
+   config  description  HEAD  hooks/  info/  objects/  refs/
+   $ cd ..
+   $ ls -a
+   $ rm -r .git/
+   
+   ```
+
+   
+
+3.   :star:**git에서 조심해야할 부분**  :star:
+
+   태양은 하나다. 즉 상위폴더에 .git 폴더가 있다면 하위폴더에 .git 을 또다시 만들면 안된다. 
+
+   즉 하위폴더에 있는 .git 을 지우는게 가장 빠르다. 상위폴더 하나로 관리하는 것이 베스트. 
+
+4.  ```bash
+   $ cp ()
+   $ mv (파일을 이동할때, 그리고 파일명을 바꿀때도 쓰기때문에 주의해야한다. 복사하고자하는 폴더로 이동을 한 후에 써야한다.)
+   $ mv (복사하고자하는 파일이 있는 폴더) .(현재폴더)
+    ```
+
+5. ```bash
+   $ git status (git을 쓰면서 가장많이 쓸 명령어.)
+   ```
+
+6.  ```bash
+   # git commit (snap shot을 찍다. . . .)
+   그런데 또 git에서는 바로 사진 찍는게 아니고...
+   이건 안찍고싶거든...하는 파일이 있으면 제외할 수 있다구...
+   그래서 무대위에 올려논것만 commit 하게 끔 할수있따!!
+    ```
+
+7. ```bash
+   $ git add . (스테이징에 올리는 명령어- Staging area)
+   ```
+
+8. ```bash
+   $ git commit 만 쓰면 누구냐고 물어본다. 
+   who you are !!
+   ```
+
+9. ```bash
+   $ git config --global user.email "xxxx@gmail.com"
+   $ git config --global user.name "somin"
+   ```
+
+10. ```bash
+    $ git log
+    $ git log --oneline -1
+    $ git log --oneline -10
+    ```
+
+11. 
