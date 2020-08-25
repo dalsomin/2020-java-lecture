@@ -137,7 +137,7 @@ $ git push origin master
 
 
 
-# 수업시작
+# Local Computer
 
 1. git은 폴더단위로 관리한다. 
 
@@ -202,4 +202,18 @@ $ git push origin master
     $ git log --oneline -10
     ```
 
-11. 
+
+
+
+
+# Remote Repository
+
+1. ```bash
+   $ git remote 를 해보면 아무것도 안나온다. 즉 원격 레포지터리에 연결이 되지 않았다는 의미이다.
+   ```
+
+2.  ```bash
+   $ git remote add origin https://github.com/dalsomin/TIL.git
+    ```
+
+3. 
