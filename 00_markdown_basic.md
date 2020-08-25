@@ -76,13 +76,11 @@ $ git push origin master
 - `![]()`를 작성하고 `()`안에 이미지 주소를 입력한다. `[]`안에는 이미지 파일의 이름을 작성한다.
 - 로컬에 이미지 파일을 저장한 경우 절대 경로가 아닌 상대 경로를 사용하여 이미지를 저장한다.
 
-![git](C:\Users\Autumnsky\Desktop\gitImage.png)
-
-![](https://miro.medium.com/max/875/1*BCZkmZR1_YzDZy22Vn4uUw.png)
 
 
+![](https://miro.medium.com/max/875/1*BCZkmZR1_YzDZy22Vn4uUw.png){: width="100" height="100"}
 
-~~이미지 삽입이 왜 안되지~~ :anger:
+
 
 ---
 
@@ -204,9 +202,9 @@ $ git push origin master
 
 
 
+---
 
-
-# Remote Repository
+## Remote Repository 와 연결
 
 1. ```bash
    $ git remote 를 해보면 아무것도 안나온다. 즉 원격 레포지터리에 연결이 되지 않았다는 의미이다.
@@ -219,13 +217,13 @@ $ git push origin master
 
 
 
-
-
-##	Version Control
+##	Version Control Command
 
 ```bash 
 $ git log --oneline
 $ git checkout XXXXX[해시코드] (그 커밋시점버전으로 돌아가기)
 $ git checkout master (다시돌아오기)
 ```
+
+
 
