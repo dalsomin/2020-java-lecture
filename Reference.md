@@ -14,3 +14,14 @@
 >
 > > https://us-west-2.console.aws.amazon.com/cloud9/ide/5df17bd150b444768d1a13e8e8ceedbd?#
 
+
+
+* blog 만들기(지킬사용)
+
+  https://theorydb.github.io/envops/2019/05/03/envops-blog-github-pages-jekyll/
+
+---
+
+## Conference
+
+* aws reinvent
