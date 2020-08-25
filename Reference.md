@@ -12,5 +12,4 @@
 
 > :computer: 가상컴퓨터 
 >
-> > https://us-west-2.console.aws.amazon.com/cloud9/ide/5df17bd150b444768d1a13e8e8ceedbd?#
-
+> > https://ide.cs50.io/
