@@ -169,7 +169,7 @@ $ git push origin master
    $ cp ()
    $ mv (파일을 이동할때, 그리고 파일명을 바꿀때도 쓰기때문에 주의해야한다. 복사하고자하는 폴더로 이동을 한 후에 써야한다.)
    $ mv (복사하고자하는 파일이 있는 폴더) .(현재폴더)
-    ```
+   ```
 
 5. ```bash
    $ git status (git을 쓰면서 가장많이 쓸 명령어.)
@@ -180,7 +180,7 @@ $ git push origin master
    그런데 또 git에서는 바로 사진 찍는게 아니고...
    이건 안찍고싶거든...하는 파일이 있으면 제외할 수 있다구...
    그래서 무대위에 올려논것만 commit 하게 끔 할수있따!!
-    ```
+   ```
 
 7. ```bash
    $ git add . (스테이징에 올리는 명령어- Staging area)
@@ -214,6 +214,18 @@ $ git push origin master
 
 2.  ```bash
    $ git remote add origin https://github.com/dalsomin/TIL.git
-    ```
+   ```
 
-3. 
+
+
+
+
+
+##	Version Control
+
+```bash 
+$ git log --oneline
+$ git checkout XXXXX[해시코드] (그 커밋시점버전으로 돌아가기)
+$ git checkout master (다시돌아오기)
+```
+
