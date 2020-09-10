@@ -227,3 +227,17 @@ $ git checkout master (다시돌아오기)
 
 
 
+## Remote 연결 지우기
+
+```bash
+$ git remote remove origin 
+```
+
+
+
+## push -u 
+
+```bash
+$ git push -u origin master
+```
+
