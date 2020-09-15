@@ -1,0 +1,2 @@
+java -jar springBootProject-0.0.2-SNAPSHOT.jar --dalsomin.fullName=hoho
+java -jar web-0.0.3-SNAPSHOT.jar --spring.profiles.active=prod
