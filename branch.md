@@ -26,7 +26,11 @@ $ git merge [브랜치명]
 # 병합의 주체가 되는 브랜치로 이동후에 머지를 해야한다. 
 ```
 
+:kissing_smiling_eyes: 
 
+:heavy_check_mark:
+
+:
 
 ## Merge 시나리오
 
